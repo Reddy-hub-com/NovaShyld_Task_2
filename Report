@@ -1,0 +1,51 @@
+NovaShyld Cybersecurity Internship
+Task 2: Lab Setup & Security Environment Configuration
+Prepared By
+BALIREDDY CHANDRAMOULI REDDY
+Lab Environment
+Kali Linux • Metasploitable2 • DVWA • Docker • VirtualBox
+August 2026
+  
+Table of Contents
+1. Introduction
+2. Objectives
+3. Lab Environment
+4. Activity 1 – Kali Linux Installation and Configuration
+5. Activity 2 – Vulnerable Target Deployment
+6. DVWA Deployment
+7. Activity 3 – Network Configuration
+8. Activity 4 – Attacker–Target Connectivity Verification
+9. Network Configuration Diagram
+10. Evidence and Screenshots
+11. Results
+12. Security Considerations
+13. Conclusion
+14. GitHub Repository Structure
+
+  1. Introduction
+
+This task focuses on establishing a controlled cybersecurity laboratory environment for vulnerability assessment and penetration-testing activities. Kali Linux is used as the attacker/test system, while Metasploitable2 and DVWA provide deliberately vulnerable targets/applications. VirtualBox provides the virtualized environment and Docker is used to run DVWA.
+2. Objectives
+
+•	Install and configure Kali Linux as the attacker environment.
+•	Deploy a vulnerable target environment using Metasploitable2.
+•	Deploy DVWA as a vulnerable web application using Docker.
+•	Configure communication between the attacker and target systems.
+•	Verify attacker–target connectivity.
+•	Document the laboratory configuration with screenshots.
+•	Prepare a network configuration diagram.
+
+
+3. Lab Environment
+
+Component	Role	Status
+VirtualBox	Virtualization platform	Configured
+Kali Linux	Attacker / security testing system	Configured
+Metasploitable2	Vulnerable target	Running / reachable
+Docker	Container platform	Running
+DVWA	Vulnerable web application	Accessible
+Firefox	Web browser for DVWA	Verified
+4. Activity 1 – Kali Linux Installation and Configuration
+Kali Linux was configured as the primary attacker/test machine for the cybersecurity laboratory. The virtual machine was prepared using VirtualBox and used for network verification and subsequent security testing activities.
+
+  
